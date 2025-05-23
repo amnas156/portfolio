@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iam Amnas</title>
+    <script src="js/tailwindcss.js" ></script>
+    <link rel="stylesheet" href="css/sytle.css">
+</head>
+<body class="bg-black text-[#FFFFFF] ">
+    <button id="menu-btn">
+        <div class="fixed top-8 right-4 "  >
+            <div class="w-16 h-16 bg-[#FFFFFF] rounded-full flex justify-center items-center overflow-hidden z-50 transition-all duration-500 ">
+                <ul class="grid grid-cols-2 gap-1">
+                    <li class="w-4 h-4  rounded-full animate-box1"></li>
+                    <li class="w-4 h-4  rounded-full animate-box2"></li>
+                    <li class="w-4 h-4  rounded-full animate-box3"></li>
+                    <li class="w-4 h-4  rounded-full animate-box4"></li>
+                </ul>
+            </div>
+        </div>
+    </button>
+    <div class="fixed right-2 rotate top-1/2">
+        <img class="w-8 h-8" src="img/setting_2344310.png" alt="">
+    </div>
+    <div class="fixed  w-64 py-16 h-screen px-8 top-0 right-0 hidden bg-gradient-to-b from-[#111] to-[#222] overflow-hidden z-50 transition-all duration-500" id="menu">
+        <a class="absolute top-4 right-4 text-3xl text-[#CC00CC]"  href="/" id="close-menubar">×</a>
+        <div>
+            <ul class="text-[#FFFFFF] grid gap-16">
+                <li class="group flex gap-4"><p class="w-2 h-2 my-auto bg-[#FFFFFF] rounded-full"></p><a class="text-2xl  group-hover:text-[#CC00CC] Active" href="#">Home</a></li>
+                <li class="group flex gap-4"><p class="w-2 h-2 my-auto bg-[#FFFFFF] rounded-full"></p><a class="text-2xl group-hover:text-[#CC00CC]" href="#about">About</a></li>
+                <li class="group flex gap-4"><p class="w-2 h-2 my-auto bg-[#FFFFFF] rounded-full"></p><a class="text-2xl group-hover:text-[#CC00CC]" href="#Portfolio">Portfolio</a></li>
+                <li class="group flex gap-4"><p class="w-2 h-2 my-auto bg-[#FFFFFF] rounded-full"></p><a class="text-2xl group-hover:text-[#CC00CC]" href="">Contacts</a></li>
+            </ul>
+            <div class="my-[60px]">
+                <ul class="flex gap-4">
+                    <li><a href=""><img class="w-8 h-8 rounded-lg"  src="img/icons8-linkedin.gif" alt=""></a></li>
+                    <li><a href=""><img class="w-8 h-8 rounded-lg" src="img/icons8-instagram.gif" alt=""></a></li>
+                    <li><a href=""><img class="w-8 h-8 rounded-lg" src="img/icons8-whatsapp.gif" alt=""></a></li>
+                    <li><a href=""><img class="w-8 h-8 rounded-lg" src="img/icons8-mail.gif" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="w-full " >
+        <div class=" w-[90%] mx-auto" >
+            <div class="py-16 lg:py-32" >
+                <div class="w-full lg:w-1/2 grid gap-6">
+                    <h1>
+                        <span class="text-xl sm:text-2xl">My Self,</span>
+                        <br>
+                        <span class="text-3xl sm:text-5xl font-bold">Amnas Ali</span>
+                    </h1>
+                    <p class="text-base sm:text-lg">I'm a 22-year-old <strong>Full Stack</strong> Developer currently training at <strong>Talrop</strong>, with a passion for building clean, responsive websites and web applications. Skilled in <strong>HTML, CSS, JavaScript, React, Django, Bootstrap,</strong> and <strong>Tailwind CSS</strong>, I enjoy crafting digital solutions that are both functional and user-friendly.</p>
+                    <button class="border border1 py-2 rounded-2xl">Download CV</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="mb-16">
+        <div class="w-[90%] mx-auto">
+            <div>
+                <h3 class="text-3xl sm:text-4xl font-semibold">About Me</h3>
+                <p class="w-32 h-1 rounded-lg bg-[#1E90FF] mt-2 about-line transition-all duration-[3000ms] transform" ></p>
+            </div>
+            <div id="section" class="my-8 flex flex-col lg:flex-row gap-0 opacity-0 translate-y-10 transition-all duration-[3500ms]">
+                <div class="w-full lg:w-1/2">
+                    <video class=" rounded-tl-xl w-full" width="640" height="360" autoplay muted loop playsinline>
+                        <source src="/img/IMG_3085.MOV" type="video/mp4">
+                    </video>
+                </div>
+                <div class="w-full lg:w-1/2 border-2 border-white border-t-0 lg:border-t-2 lg:border-l-0 flex justify-center items-center rounded-br-xl ">
+                    <div class="py-6 px-4 text-lg sm:text-base ">
+                        <p class="w-[90%] mx-auto "> <strong>Hi,</strong><br> I'm <strong>Amnas Ali</strong>, a passionate Full Stack Developer training at Talrop. I specialize in building responsive, user-friendly websites using HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, and Django. I love turning ideas into elegant, efficient digital experiences.
+                        </p>
+                    </div>
+                </div>
+            </div>p
+            <div class="my-16">
+                <h3 class=" text-4xl">What I Do</h3>
+                <p  class="w-0 h-1 rounded-lg bg-[#1E90FF] mt-2 about-line transition-all duration-[4000ms] transform" ></p>
+            </div>
+            <ul id="section2" class="grid grid-cols-2 gap-4 opacity-0 translate-y-10 transition-all duration-[3500ms]">
+                <li class="border-2 animate1 rounded-xl p-4">
+                    <h3 class="text-xl mb-4 ">Frontend Development</h3>
+                    <p>Creating beautiful, responsive UIs using modern frameworks and design systems.</p>
+                </li>
+                <li class="border-2 animate2 rounded-xl p-4">
+                    <h3 class="text-xl mb-4">Backend Development </h3>
+                    <p> Building reliable, secure APIs and backend logic using Django.</p>
+                </li>
+                <li class="border-2 animate3 rounded-xl p-4">
+                    <h3 class="text-xl mb-4">Static Websites</h3>
+                    <p>Developing fast, lightweight websites with optimized code.</p>
+                </li>
+                <li class="border-2 animate4 rounded-xl p-4">
+                    <h3 class="text-xl mb-4">E-Commerce & Business Sites </h3>
+                    <p>Custom solutions tailored to client needs.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="Portfolio">
+        <div class="w-[90%] mx-auto">
+            <div class="">
+                <h3 class=" text-4xl">My Work</h3>
+                <p class="w-0 h-1 rounded-lg bg-[#1E90FF] mt-2 about-line transition-all duration-[3000ms] transform" ></p>
+            </div>
+            <ul class="my-16 grid grid-cols-2 gap-4 ">
+                <li class="relative group">
+                    <div class=" border border-white rounded-2xl flex justify-center items-center h-96">
+                        <img class="w-64 h-64 rounded-2xl" src="img/Homepage.jpg" alt="">
+                    </div>
+                    <div class="absolute text-center items-center top-0 left-0 bg-[#1E90FF] h-96 w-full rounded-2xl  opacity-0 group-hover:opacity-100 ">
+                        <a  href="">
+                        <div class="my-8 text-center">
+                            <h3 class="text-3xl text-[#000000] my-4">Shopco website </h3>
+                            <span class=" text-[#333333] ">I built the Shopco website using HTML and CSS with a focus on clean design and responsiveness.
+                                It features a homepage, product grid, navigation bar, and interactive hover effects.
+                                Flexbox, Grid, and media queries were used to ensure a modern and mobile-friendly layout..</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="relative group">
+                    <div class=" border border-white rounded-2xl flex justify-center items-center h-96">
+                        <img class="w-64 h-64 rounded-2xl" src="img/Home-page.jpg" alt="">
+                    </div>
+                    <div class="absolute text-center items-center top-0 left-0 bg-[#FF6A00] h-96 w-full rounded-2xl  opacity-0 group-hover:opacity-100 ">
+                        <a  href="">
+                        <div class="my-8 text-center">
+                            <h3 class="text-3xl text-[#000000] my-4">exclusive website</h3>
+                            <span class=" text-[#333333] ">I am building an exclusive website using HTML, CSS, and JavaScript to create a dynamic, user-focused platform. The site features a unique, visually engaging design with interactive elements such as smooth animations, forms, and dynamic content. CSS is used for styling and responsiveness, while JavaScript handles interactivity and functionality like form validation, sliders, or pop-ups, ensuring a seamless user experience.</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="relative group">
+                    <div class=" border border-white rounded-2xl flex justify-center items-center h-96">
+                        <img class="w-64 h-64 rounded-2xl" src="img/Home-page.jpg" alt="">
+                    </div>
+                    <div class="absolute text-center items-center top-0 left-0 bg-[#32CD32] h-96 w-full rounded-2xl  opacity-0 group-hover:opacity-100 ">
+                        <a  href="">
+                        <div class="my-8 text-center">
+                            <h3 class="text-3xl text-[#000000] my-4">exclusive website</h3>
+                            <span class=" text-[#333333] ">I am designing a modern e-commerce experience using React to create a highly interactive and dynamic shopping platform. The website features a smooth, component-driven UI with real-time product updates, an intuitive shopping cart, and user-friendly checkout flow. React's state management (using hooks or Redux) ensures seamless updates across the site, and the responsive design guarantees a consistent experience on both mobile and desktop devices..</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="relative group">
+                    <div class=" border border-white rounded-2xl flex justify-center items-center h-96">
+                        <img class="w-64 h-64 rounded-2xl" src="img/home page.jpg" alt="">
+                    </div>
+                    <div class="absolute text-center items-center top-0 left-0 bg-[#FF1493] h-96 w-full rounded-2xl  opacity-0 group-hover:opacity-100 ">
+                        <a  href="">
+                        <div class="my-8 text-center">
+                            <h3 class="text-3xl text-[#000000] my-4">euphoria website </h3>
+                            <span class=" text-[#333333] ">I am building Euphoria, a customer-centric e-commerce website, using Django templates and Tailwind CSS to deliver a seamless, responsive, and visually appealing shopping experience. The site leverages Django’s powerful templating engine for dynamic content rendering, while Tailwind CSS provides a highly customizable, utility-first design approach for a clean and modern look. The focus is on user experience, with intuitive navigation, personalized product recommendations, and fast loading times, ensuring an efficient and enjoyable shopping journey for customers.</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="text-[#000000] my-16">
+        <div class="w-[90%] mx-auto ">
+            <div class="my-8">
+                <h3 class=" text-4xl text-[#FFFFFF]">Contacts</h3>
+                <p class="w-0 h-1 rounded-lg bg-[#1E90FF] mt-2 about-line transition-all duration-[3000ms] transform" ></p>
+            </div>
+            <form action="#" method="POST">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="name" class="block text-gray-100 text-lg">Full Name</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg mt-2 focus:outline-none focus:ring-2 focus:ring-blue-600">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-100 text-lg">Email Address</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg mt-2 focus:outline-none focus:ring-2 focus:ring-blue-600">
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <label for="message" class="block text-gray-100 text-lg">Message</label>
+                    <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-lg mt-2 focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+                </div>
+
+                <div class="flex justify-center">
+                    <button type="submit" class="px-6 py-3 bg-[#1E90FF] text-white rounded-lg text-lg hover:bg-[#FF4500] focus:outline-none focus:ring-2 focus:ring-blue-600">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p>&copy; 2025 Amnas Ali. All rights reserved.</p>
+    </footer>
+        </div>
+    </section>
+    <script src="js/script.js" ></script>
+</body>
+</html>
